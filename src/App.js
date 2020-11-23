@@ -20,7 +20,7 @@ class App extends Component {
     <Switch>
       <Route exact path="/" component={MainPage} />
       <Route exact path="/my-react-portfolio" component={MainPage} />
-      <Route exact path="/projects" component={ProjectsPage} />
+      <Route exact path="/my-react-portfolio/projects" component={ProjectsPage} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/404" component={NotFoundPage}/>
       <Redirect to="/404/"/>
